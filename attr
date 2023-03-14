@@ -1,0 +1,42 @@
+A01: A continuous attribute representing the relative altitude of the radar returns
+A02: A continuous attribute representing the 'E' parameter from the ionosphere.
+A03: A continuous attribute representing the 'F' parameter from the ionosphere.
+A04: A continuous attribute representing the 'B' parameter from the ionosphere.
+A05: A continuous attribute representing the 'G' parameter from the ionosphere.
+A06: A continuous attribute representing the 'H' parameter from the ionosphere.
+A07: A continuous attribute representing the 'J' parameter from the ionosphere.
+A08: A continuous attribute representing the 'K' parameter from the ionosphere.
+A09: A continuous attribute representing the 'L' parameter from the ionosphere.
+A10: A continuous attribute representing the 'M' parameter from the ionosphere.
+A11: A continuous attribute representing the 'N' parameter from the ionosphere.
+A12: A continuous attribute representing the 'O' parameter from the ionosphere.
+A13: A continuous attribute representing the 'P' parameter from the ionosphere.
+A14: A continuous attribute representing the 'Q' parameter from the ionosphere.
+A15: A continuous attribute representing the 'R' parameter from the ionosphere.
+A16: A continuous attribute representing the 'S' parameter from the ionosphere.
+A17: A continuous attribute representing the 'T' parameter from the ionosphere.
+A18: A continuous attribute representing the 'U' parameter from the ionosphere.
+A19: A continuous attribute representing the 'V' parameter from the ionosphere.
+A20: A continuous attribute representing the 'W' parameter from the ionosphere.
+A21: A continuous attribute representing the 'X' parameter from the ionosphere.
+A22: A continuous attribute representing the 'Y' parameter from the ionosphere.
+A23: A continuous attribute representing the 'Z' parameter from the ionosphere.
+A24: A continuous attribute representing the correlation coefficient between the signal and the radar return.
+A25: A continuous attribute representing the ratio of the sum of the strengths of the 'P' and 'R' waves to that of the 'Q' and 'S' waves.
+A26: A continuous attribute representing the standard deviation of the noise in the signal.
+A27: A continuous attribute representing the amplitude of the signal.
+A28: A continuous attribute representing the center frequency of the signal.
+A29: A continuous attribute representing the bandwidth of the signal.
+A30: A continuous attribute representing the mean of the inter-arrival time of the signal.
+A31: A continuous attribute representing the standard deviation of the inter-arrival time of the signal.
+A32: A continuous attribute representing the skewness of the inter-arrival time of the signal.
+A33: A continuous attribute representing the kurtosis of the inter-arrival time of the signal.
+Class: A binary attribute representing the target variable. It takes two values: "g" (good) and "b" (bad). "g" indicates that the radar return was from a good target, while "b" indicates that it was from a bad
+
+
+
+-1 - 0
+
+
+
+Целевой атрибут в наборе данных Ionosphere - это бинарная переменная, которая указывает, является ли возвращенный радарным оборудованием сигнал "хорошим" или "плохим". "Хорошие" сигналы обозначаются буквой "g", а "плохие" - буквой "b". Целевой атрибут используется для классификации сигналов на "хорошие" и "плохие" на основе других атрибутов набора данных. Таким образом, цель состоит в том, чтобы предсказать, является ли радарный сигнал "хорошим" или "плохим" на основе набора из 34 других атрибутов.
